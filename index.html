@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>color Picker</title>
+  <link href="resource/style.css" rel="stylesheet">
+</head>
+<body onload="getSize(),generateDivs()" onresize="getSize(),generateDivs()">
+    <div class="display" id="displaycode">
+        <div class="displaycolor" id="colorcode"></div>
+        <div class="displaycolorcode" id="textcode">
+            <h1>Color code</h1>
+        </div>
+        <div class="colorcodehex" id="hexcode">
+            <h1>Color code</h1>
+        </div>
+    </div>
+    <div class="color-display" id = "colors-display" onmouseover="" style="cursor: cell;">
+        <div class="color" data-color>
+        </div>
+    </div>
+    <script src="resource/script.js" ></script>
+
+</body>
+</html>
